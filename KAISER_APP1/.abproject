@@ -1,0 +1,45 @@
+{
+  "ProjectName": "KAISER_APP1",
+  "ProjectGuid": "52d75bff-df46-4aa1-a2b9-150726a77a0f",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.KAISERAPP1",
+  "DisplayName": "KAISER_APP1",
+  "Author": "",
+  "Description": "KAISER_APP1",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{032a631d-a7e5-48a4-8aac-82fc5bd56820}",
+  "WP8ProductID": "{1cccebce-f121-40aa-af73-708567352f8c}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.KAISERAPP1",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
