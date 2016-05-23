@@ -6,13 +6,14 @@
     <meta charset="utf-8">
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet">
 
-    <link href="styles/overrides.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
 
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
     <script src="app.js"></script>
+    <script src="bower_components/everlive/min/everlive.all.min.js"></script>
+    <script src="dataProviders/kaiserApp1.js"></script>
 </head>
 
 <body id="kendoUiMobileApp">
@@ -20,13 +21,12 @@
     <div data-role="layout" data-id="main">
         <header data-role="header">
             <div data-role="navbar">
+                <a data-role="backbutton" data-align="left">Back</a>
                 <span data-role="view-title"></span>
+                <a data-align="right" data-role="button" class="nav-button" href="#/">Index</a>
             </div>
         </header>
         <footer data-role="footer">
-            <div data-role="tabstrip" id="navigation-container">
-                <a href="components/home/view.html" data-icon="home">Home View</a>
-            </div>
         </footer>
     </div>
 
@@ -38,6 +38,12 @@
         </header>
         <footer data-role="footer">
         </footer>
+    </div>
+
+    <div data-role="view" data-layout="main-nonav" data-title="Index">
+        <ul id="navigation-container" data-role="listview" data-style="inset">
+            <li><a href="components/home/view.html" data-icon="home">Home View</a></li>
+        </ul>
     </div>
     <!-- START_CUSTOM_CODE_kendoUiMobileApp -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->

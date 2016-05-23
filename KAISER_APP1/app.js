@@ -9,8 +9,6 @@
         $(function() {
             app.mobileApp = new kendo.mobile.Application(document.body, {
                 transition: 'slide',
-                skin: 'nova',
-                initial: 'components/home/view.html'
             });
         });
     };

@@ -10,14 +10,18 @@
       "icon": "home"
     }
   ],
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "kaiserApp1",
+      "title": "KAISER_APP1 / KAISER_APP1",
+      "source": "everlive",
+      "everliveKey": "ok21luesp37m8e35",
+      "offlineStorage": true
+    }
+  ],
   "name": "kendoUiMobileApp",
-  "navigation": "tabstrip",
-  "view": "home",
+  "navigation": "listmenu",
   "transition": "slide",
-  "showMoreTab": false,
-  "skin": "nova",
-  "skinMainColor": "#32364c",
-  "skinTextColor": "#ffffff",
-  "skinAccentColor": "#ff4350"
+  "skin": "native"
 }
