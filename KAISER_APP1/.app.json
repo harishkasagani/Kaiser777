@@ -4,10 +4,71 @@
     {
       "type": "kendo-ui-mobile:view",
       "name": "home",
-      "components": [],
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "email",
+              "title": "Email",
+              "inputType": "email",
+              "titlePosition": "left",
+              "placeholder": "example@example.com"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "url",
+              "title": "url",
+              "inputType": "url",
+              "titlePosition": "left",
+              "placeholder": "http://www.example.com"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "tel",
+              "title": "Phone",
+              "inputType": "tel",
+              "titlePosition": "left",
+              "placeholder": "+123 444 555 666"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "datetime",
+              "title": "Date/time",
+              "inputType": "datetime-local",
+              "titlePosition": "left"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "switch",
+              "title": "Switch",
+              "inputType": "switch"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "radio",
+              "title": "Label",
+              "inputType": "radio",
+              "group": "group1"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "textField",
+              "title": "Text field",
+              "inputType": "text",
+              "titlePosition": "left",
+              "placeholder": "Type here ..."
+            }
+          ],
+          "name": "homeModel",
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel"
+        }
+      ],
       "title": "Home View",
       "addToNavigation": true,
-      "icon": "home"
+      "icon": "camera"
     }
   ],
   "dataProviders": [
@@ -23,5 +84,8 @@
   "name": "kendoUiMobileApp",
   "navigation": "listmenu",
   "transition": "slide",
-  "skin": "native"
+  "skin": "nova",
+  "skinMainColor": "#32364c",
+  "skinTextColor": "#ffffff",
+  "skinAccentColor": "#ff4350"
 }

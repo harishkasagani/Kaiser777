@@ -1,4 +1,96 @@
 <div data-role="view" data-title="Home View" data-layout="main" data-model="app.home" data-show="app.home.onShow" data-after-show="app.home.afterShow">
+    <div id="homeModel" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>Email</span>
+
+                        <input data-bind="value: homeModel.fields.email" placeholder="example@example.com" type="email">
+                    </label>
+
+                </li>
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>url</span>
+
+                        <input data-bind="value: homeModel.fields.url" placeholder="http://www.example.com" type="url">
+                    </label>
+
+                </li>
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>Phone</span>
+
+                        <input data-bind="value: homeModel.fields.tel" placeholder="+123 444 555 666" type="tel">
+                    </label>
+
+                </li>
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>Date/time</span>
+
+                        <input data-bind="value: homeModel.fields.datetime" type="datetime-local">
+                    </label>
+
+                </li>
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>Switch</span>
+
+                        <input data-bind="value: homeModel.fields.switch" data-role="switch">
+                    </label>
+
+                </li>
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>Label</span>
+
+                        <input data-bind="value: homeModel.fields.radio" type="radio" name="group1">
+                    </label>
+
+                </li>
+                <li class="form-content-item">
+
+
+                    <label>
+
+                        <span>Text field</span>
+
+                        <input data-bind="value: homeModel.fields.textField" placeholder="Type here ..." type="text">
+                    </label>
+
+                </li>
+            </ul>
+
+            <div class="button-group">
+                <a data-role="button" data-bind="events: { click: homeModel.cancel }">Cancel</a>
+                <a class="primary" data-role="button" data-bind="events: { click: homeModel.submit }">Confirm</a>
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_homeModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_homeModel -->
+    </div>
 
     <!-- START_CUSTOM_CODE_home -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
