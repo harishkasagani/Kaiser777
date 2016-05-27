@@ -1,0 +1,231 @@
+<msg time='2016-05-25T17:49:01.875-04:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1953:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='HARISH' host_addr='fe80::545:4fda:dff7:6c19%6'
+ version='1'>
+ <txt>Create Relation ADR_CONTROL
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.290-04:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1953:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='HARISH' host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>Create Relation ADR_INVALIDATION
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.474-04:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1953:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='HARISH' host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>Create Relation INC_METER_IMPT_DEF
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.844-04:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1953:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='HARISH' host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>Create Relation INC_METER_PK_IMPTS
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.959-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.959-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>
+Fatal NI connect error 12170.
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.974-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 12.1.0.2.0 - Production
+Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 12.1.0.2.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 12.1.0.2.0 - Production
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.990-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Time: 25-MAY-2016 17:49:02
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.990-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.990-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.990-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    ns main err code: 12535
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:02.990-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.043-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>TNS-12535: TNS:operation timed out
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.044-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.046-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    nt main err code: 505
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.049-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.052-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>TNS-00505: Operation timed out
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.054-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    nt secondary err code: 60
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.057-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:03.058-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Client address: &lt;unknown&gt;
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.472-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.472-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>
+Fatal NI connect error 12170.
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.472-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>
+  VERSION INFORMATION:
+TNS for 64-bit Windows: Version 12.1.0.2.0 - Production
+Oracle Bequeath NT Protocol Adapter for 64-bit Windows: Version 12.1.0.2.0 - Production
+Windows NT TCP/IP NT Protocol Adapter for 64-bit Windows: Version 12.1.0.2.0 - Production
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Time: 25-MAY-2016 17:49:29
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Tracing not turned on.
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    ns main err code: 12535
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>TNS-12535: TNS:operation timed out
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    nt main err code: 505
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.488-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>TNS-00505: Operation timed out
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.503-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    nt secondary err code: 60
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.503-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2016-05-25T17:49:29.503-04:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HARISH'
+ host_addr='fe80::545:4fda:dff7:6c19%6'>
+ <txt>  Client address: &lt;unknown&gt;
+ </txt>
+</msg>
